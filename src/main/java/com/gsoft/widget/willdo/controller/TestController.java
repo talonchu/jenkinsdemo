@@ -1,4 +1,4 @@
-package com.gsoft.widget.willdo.controller;
+﻿package com.gsoft.widget.willdo.controller;
 
 import com.gsoft.cos3.dto.ReturnDto;
 import com.gsoft.cos3.util.Assert;
@@ -33,7 +33,7 @@ public class TestController {
 	@RequestMapping(value = "/ttt", method = RequestMethod.GET)
 	ReturnDto ttt(@RequestParam String ids,HttpServletRequest request) {
 		ids = "返回的数据为："+ids;
-		return new ReturnDto(200,"这是我的结果！！！！！！！！！！！！！！！！！！");
+		return new ReturnDto(200,"这是我的结果2222！！！！！！！！！！！！！！！！！！");
 	}
 	
 	@ApiOperation("保存源")

@@ -33,7 +33,7 @@ public class TestController {
 	@RequestMapping(value = "/ttt", method = RequestMethod.GET)
 	ReturnDto ttt(@RequestParam String ids,HttpServletRequest request) {
 		ids = "返回的数据为："+ids;
-		return new ReturnDto(200,"这是我的结果33333！！！！！！！！！！！！！！！！！！");
+		return new ReturnDto(200,"这是我的结果11111！！！！！！！！！！！！！！！！！！");
 	}
 	
 	@ApiOperation("保存源")
